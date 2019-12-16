@@ -15,7 +15,7 @@ def assign_rooms(names)
   array
 end
 
-def printer
+def printer(names)
   array = []
   batch_badge_creator.each do
     puts batch_badge_creator(names)
@@ -23,5 +23,5 @@ def printer
   assign_rooms.each do 
     puts assign_rooms(names)
   end
-  printer
+  printer(names)
 end 
