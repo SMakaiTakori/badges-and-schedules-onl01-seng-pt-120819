@@ -16,14 +16,9 @@ def assign_rooms(names)
 end
 
 def printer(names)
-  array = []
-  batch_badge_creator.each do
-    array.push(batch_badge_creator(names))
-    batch_badge_creator.chomp
-  end  
+  puts batch_badge_creator(names)
   assign_rooms.each do
-    array.push(assign_rooms(names))
-     assign_rooms.chomp 
-  end
+    puts assign_rooms.chomp 
+  end  
   printer(names)
-end 
+end
