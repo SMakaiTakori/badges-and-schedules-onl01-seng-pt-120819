@@ -18,7 +18,8 @@ end
 def printer
   array = []
   batch_badge_creator(names)
-  while assign_rooms.each 
+  assign_rooms.each do 
+    puts 
     
   
   end
