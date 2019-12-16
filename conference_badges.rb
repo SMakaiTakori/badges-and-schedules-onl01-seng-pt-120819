@@ -9,7 +9,7 @@ def batch_badge_creator(names)
   return array 
 end 
 
-def assign_rooms(names,rooms)
+def assign_rooms(rooms)
   array = []
   name = names.each_with_index {|name, i|} 
   room = rooms.each_with_index {|room, i|} 
