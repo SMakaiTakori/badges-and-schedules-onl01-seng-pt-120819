@@ -17,7 +17,7 @@ end
 
 def printer(names)
     array = []
-    batch_badge_creator.each {|name| name}
-    assign_rooms.each {|name| name}
-    array(names)
+    batch_badge_creator.each{|name| name}
+    assign_rooms.each{|name| name}
+    array
 end
