@@ -19,6 +19,7 @@ def printer
   array = []
   batch_badge_creator.each do
     puts batch_badge_creator(names)
+  end  
   assign_rooms.each do 
     puts assign_rooms(names)
   end
