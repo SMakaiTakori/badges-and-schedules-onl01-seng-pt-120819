@@ -13,5 +13,5 @@ def assign_rooms(names,rooms)
   array = []
   name = names.each_with_index {|name, i|} 
   room = rooms.each_with_index {|room, i|} 
-  
+  array (name,room)
 end
