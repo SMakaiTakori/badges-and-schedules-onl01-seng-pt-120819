@@ -16,3 +16,12 @@ def assign_rooms(names)
 end
 
 def printer
+  array = []
+  batch_badge_creator(names)
+  while assign_rooms.each << assign_rooms.length
+    
+  
+  end
+  
+
+end 
