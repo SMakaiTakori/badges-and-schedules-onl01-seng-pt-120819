@@ -18,12 +18,12 @@ end
 def printer(names)
   array = []
   batch_badge_creator.each do
-    batch_badge_creator.chomp 
     array.push(batch_badge_creator(names))
+    batch_badge_creator.chomp
   end  
   assign_rooms.each do
-    assign_rooms.chomp 
     array.push(assign_rooms(names))
+     assign_rooms.chomp 
   end
   printer(names)
 end 
