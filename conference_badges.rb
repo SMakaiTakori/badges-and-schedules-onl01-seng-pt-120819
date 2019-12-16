@@ -23,5 +23,5 @@ def printer(names)
   assign_rooms.each do 
     puts assign_rooms(names)
   end
-  printer(names)
+  printer
 end 
