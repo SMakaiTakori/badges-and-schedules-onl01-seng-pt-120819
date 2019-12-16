@@ -23,6 +23,5 @@ def printer(names)
   assign_rooms.each do
     assign_rooms.chomp 
   end
-  array
-  
+  printer(names)
 end 
